@@ -2,6 +2,7 @@
 const express = require('express');
 const cors = require('cors');
 const puppeteer = require('puppeteer-core');
+const chromium = require('chrome-aws-lambda');
 
 // --- Type Definitions ---
 /**
